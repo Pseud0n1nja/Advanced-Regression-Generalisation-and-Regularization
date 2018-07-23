@@ -12,7 +12,7 @@ from category_encoders import OrdinalEncoder
 from sklearn.preprocessing import StandardScaler
 
 #fetching Data
-car_price = pd.read_csv("/Users/Arpit/Documents/UpGrad/Advanced_Regression/carPrice.csv",  sep = ',', header= 0 )
+car_price = pd.read_csv("carPrice.csv",  sep = ',', header= 0 )
 
 #na handling
 car_price.isnull().values.any()
